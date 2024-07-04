@@ -15,3 +15,29 @@ Recipe Finder is a React application that lets users search for recipes using th
 - **Vite:** Fast build tool and development server.
 - **CSS:** Stylesheet for the application's visual design.
 - **Edamam Recipe API:** API used to fetch recipe data based on user queries.
+
+## SetUp
+
+1. Clone the repository:
+   ```bash
+     git clone https://github.com/your-username/recipe-finder.git
+     cd recipe-finder
+
+2. Install Dependencies
+   Make sure you have Node.js installed. Then run:
+   ```bash
+   npm install
+
+3. Run the Application
+    ```bash
+   npm run dev
+
+## Configuration
+
+To use the Edamam API, you'll need to replace the APP_ID and APP_KEY in the App component with your own credentials. You can get these by signing up at Edamam.
+
+```jsx
+const APP_ID = "your_app_id";
+const APP_KEY = "your_app_key";
+
+
