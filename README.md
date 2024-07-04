@@ -20,15 +20,18 @@ Recipe Finder is a React application that lets users search for recipes using th
 
 1. Clone the repository:
    ```bash
-     git clone https://github.com/your-username/recipe-finder.git
-     cd recipe-finder
+   git clone https://github.com/your-username/recipe-finder.git
+   
+2. Navigate into the project directory:
+   ```bash
+   cd recipe-finder
 
-2. Install Dependencies
+3. Install Dependencies
    Make sure you have Node.js installed. Then run:
    ```bash
    npm install
 
-3. Run the Application
+4. Run the Application
     ```bash
    npm run dev
 
