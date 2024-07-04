@@ -26,21 +26,18 @@ Recipe Finder is a React application that lets users search for recipes using th
    ```bash
    cd recipe-finder
 
-3. Install Dependencies
-   Make sure you have Node.js installed. Then run:
+3. Install Dependencies (Make sure you have Node.js installed)
    ```bash
    npm install
 
-4. Run the Application
+5. Run the Application
     ```bash
    npm run dev
 
 ## Configuration
 
-To use the Edamam API, you'll need to replace the APP_ID and APP_KEY in the App component with your own credentials. You can get these by signing up at Edamam.
+To use the Edamam API, you'll need to replace the APP_ID and APP_KEY in the App component with your own credentials. You can get these by signing up at [Edamam](https://developer.edamam.com/).
 
 ```jsx
 const APP_ID = "your_app_id";
 const APP_KEY = "your_app_key";
-
-
